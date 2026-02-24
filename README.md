@@ -36,7 +36,9 @@ iface wlan0 inet dhcp
     
 wpa-psk ""
 
-Note: Use the name and password from your hotsport. Enter hotspot name for wpa-ssid. Enter hotspot password for wpa-psk.
+Note: Use the name and password from your hotsport. 
+Enter hotspot name for wpa-ssid. 
+Enter hotspot password for wpa-psk.
 Step 5:  Select ctrl+O, then click enter, then select ctrl+X to leave nano text editor.
 
 Step 6: Enter "sudo reboot"
