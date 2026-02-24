@@ -1,7 +1,8 @@
 # Pynq_Z2_USB_Wifi_Dongle_Setup
 Using the Ralink 5370 Chipset, 2.4GHz, usb wifi dongle. Pynq Z-2 image version is 3.1.1.
 
-Use Tera Term or Putty and set baud rate to 115200. Select COM port. Let pynq board boot.
+Use Tera Term or Putty and set baud rate to 115200 when you connect the board using micro-sub. 
+Select COM port. Let pynq board boot.
 Turn on and change mobile hotspot properties.
 
 Step 1: Connect USB wifi dongle to usb port of board.
@@ -42,4 +43,4 @@ Enter hotspot password for wpa-psk.
 
 Step 5:  Select ctrl+O, then click enter, then select ctrl+X to leave nano text editor.
 
-Step 6: Enter "sudo reboot"
+Step 6: Enter "sudo reboot" to reboot the board to see if wifi dongle can connect to mobile hotspot.
