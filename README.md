@@ -15,13 +15,15 @@ Step 4: Enter the following:
 auto lo
 iface lo inet loopback
 
-// for ethernet connection//
+// for ethernet connection:
+
 auto eth0
 iface eth0 inet static
     address 192.168.2.99
     netmask 255.255.255.0
 
-// for hotspot//
+// for hotspot:
+
 auto wlan0
 iface wlan0 inet dhcp
     wpa-ssid ""
