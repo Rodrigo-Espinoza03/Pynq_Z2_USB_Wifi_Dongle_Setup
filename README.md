@@ -16,19 +16,25 @@ auto lo
 
 iface lo inet loopback
 
-// for ethernet connection:
+# for ethernet connection:
 
 auto eth0
-iface eth0 inet static
-    address 192.168.2.99
-    netmask 255.255.255.0
 
-// for hotspot:
+iface eth0 inet static
+
+address 192.168.2.99
+    
+netmask 255.255.255.0
+
+# for hotspot:
 
 auto wlan0
+
 iface wlan0 inet dhcp
-    wpa-ssid ""
-    wpa-psk ""
+
+ wpa-ssid ""
+    
+wpa-psk ""
 
 Note: Use the name and password from your hotsport. Enter hotspot name for wpa-ssid. Enter hotspot password for wpa-psk.
 Step 5:  Select ctrl+O, then click enter, then select ctrl+X to leave nano text editor.
